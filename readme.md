@@ -29,3 +29,9 @@ sudo systemctl status jenkins
 
 # here is the link to generate access token on github 
 https://github.com/settings/tokens/new?scopes=repo,read:user,user:email,write:repo_hook
+
+# To prevent getting an invalid HTML, we are going to run a linter so that it fails the job if anything gets in that is invalid.
+sudo apt-get install -y tidy
+
+
+
