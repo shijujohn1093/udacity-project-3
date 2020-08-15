@@ -26,3 +26,6 @@ sudo systemctl start jenkins
 # Step 8 - Enable the service to load during boot
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
+
+# here is the link to generate access token on github 
+https://github.com/settings/tokens/new?scopes=repo,read:user,user:email,write:repo_hook
